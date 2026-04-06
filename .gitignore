@@ -1,0 +1,43 @@
+# Python bytecode and extension modules
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+
+# Packaging and build output
+build/
+dist/
+wheels/
+site/
+.eggs/
+*.egg-info/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tool caches and coverage output
+.uv-cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Local editor and OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+AGENTS.md
+
+# Runtime files created by file exercises
+note*.txt
