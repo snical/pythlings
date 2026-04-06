@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.2.0 - 2026-04-06
+## 1.0.0 - 2026-04-06
 
 - expanded every category from 5 exercises to 7 exercises
 - kept all learner, solution, and starter copies aligned for the full course
