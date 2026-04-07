@@ -1,19 +1,38 @@
 [project]
 name = "pythlings"
 version = "1.0.0"
-description = "A Rustlings-style Python learning CLI"
+description = "A Rustlings-style CLI to learn Python through hands-on exercises"
 readme = "README.md"
 requires-python = ">=3.13"
 license = { file = "LICENSE" }
+keywords = [
+    "python",
+    "learn-python",
+    "python-exercises",
+    "python-practice",
+    "python-tutorial",
+    "rustlings",
+    "education",
+    "cli",
+]
 classifiers = [
     "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Education",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.13",
     "Topic :: Education",
+    "Topic :: Education :: Computer Aided Instruction (CAI)",
+    "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 dependencies = [
     "loguru>=0.7.3",
 ]
+
+[project.urls]
+Homepage = "https://github.com/snical/pythlings"
+Repository = "https://github.com/snical/pythlings"
+Issues = "https://github.com/snical/pythlings/issues"
+Changelog = "https://github.com/snical/pythlings/blob/main/CHANGELOG.md"
 
 [project.scripts]
 pythlings = "pythlings.cli:main"
